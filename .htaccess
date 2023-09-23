@@ -21,6 +21,3 @@ RewriteRule . /index.php [L]
   Order allow,deny
   Deny from all
 </Files>
-
-# Disable folder listing
-Options -Indexes
