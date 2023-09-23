@@ -1,0 +1,7 @@
+# This directive redirect user to a 404 page
+# the page `/you/are/not/allowed/to/see/this/folder` does not really exist
+# but we do that to prevent user/attacker knowing that this
+# folder exists
+
+RewriteEngine On
+RewriteRule ^(.*)$ /you/are/not/allowed/to/see/this/folder [L]
