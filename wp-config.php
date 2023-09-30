@@ -56,14 +56,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '2G5vB0tLCaVKrFKfebLG6gxL0If/pXx6w504LRFwsg0c+AVPYYrUGYZNM50q');
-define('SECURE_AUTH_KEY',  'hWLXXtm0tmlpOR8yUT4nSeYzrSTY8p5ait2l5kjVOUlZ8ccXpnC736RZkPDU');
-define('LOGGED_IN_KEY',    'vv0XscOmhQR4/ful8Lp9B6a4sIdPrxTrQmrwe2b/xHKJ5MYrULteORVDW5h2');
-define('NONCE_KEY',        'tt7ux3z/LpFhfEAwqUyBHRl7vPWSdA3jeev2oLDIstzEIR8pUgU1Sl4V4teY');
-define('AUTH_SALT',        '4bhMzxg6pPcP6g4cHs3ktDY10bNaQ9msy/fbqJWT267lCdWxIXCCRjP6/0ou');
-define('SECURE_AUTH_SALT', 'GWbtRVYDuAcAX8wMQjl021MADkhmos78XekqYk2lKOTy9k1KR+SE/gehZshe');
-define('LOGGED_IN_SALT',   'HcS1iZw8tq7b7oUvBXwUtWsl2D/ipvPudicuL2RDF+PvVDRW+JPEi83TkfSk');
-define('NONCE_SALT',       '1dR0y4LOlY+uT527J9SUqQTZBMd9Z+LLCSwtX32RFv2NQixur1pOjg5uV/L2');
+define('AUTH_KEY', $_ENV['AUTH_KEY']);
+define('SECURE_AUTH_KEY', $_ENV['SECURE_AUTH_KEY']);
+define('LOGGED_IN_KEY', $_ENV['LOGGED_IN_KEY']);
+define('NONCE_KEY', $_ENV['NONCE_KEY']);
+define('AUTH_SALT', $_ENV['AUTH_SALT']);
+define('SECURE_AUTH_SALT', $_ENV['SECURE_AUTH_SALT']);
+define('LOGGED_IN_SALT', $_ENV['LOGGED_IN_SALT']);
+define('NONCE_SALT',  $_ENV['NONCE_SALT']);
 
 /**#@-*/
 
